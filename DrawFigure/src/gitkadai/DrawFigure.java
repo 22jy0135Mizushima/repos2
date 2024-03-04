@@ -28,7 +28,7 @@ public class DrawFigure {
 
 		//イメージを描画 (ファイル名, 中心座標x, 中心座標y)
 		EZImage cat = EZ.addImage("src/gitkadai/cat.jpg", 300,300);
-		cat.turnLeft(30);
+		cat.turnLeft(35);//何故か元から30度にしちゃってたので、35度に変えます。
 
 		//文字を描画する(文字列の中心座標x, 文字列の中心座標y, 文字列，色 [,サイズ] )
 		EZ.addText(40,20, "Hello World", Color.BLACK, 12);
